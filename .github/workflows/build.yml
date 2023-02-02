@@ -3,8 +3,6 @@ on:
   pull_request:
     branches:
       - main
-  schedule:
-    - cron: '10 20 * * *'  # 8:10pm everyday
   push:
     branches:
       - main
