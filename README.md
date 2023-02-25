@@ -14,8 +14,13 @@ Add this to your containerfile:
 
 Feel free to PR more rules into this repo! Ideally as they get added upstream we can remove them here. 
 
-- Steam Devices
+- Gaming controllers from [game-devices-udev](https://gitlab.com/jntesteves/game-devices-udev) 
+- OpenRGB Rules
 - Google Titan USB keys
+
+## Adding new rules
+
+Add non-gaming rules in `rules/`, they get copied to `/etc/udev/rules.d` 
 
 ## Verification
 
