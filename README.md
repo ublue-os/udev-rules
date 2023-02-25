@@ -19,6 +19,10 @@ Feel free to PR more rules into this repo! Ideally as they get added upstream we
 - OpenRGB
 - [Yubikey support](https://github.com/Yubico/libfido2/tree/main/udev)
 
+## Adding rules
+
+If you have a rule you want to contribute send a pull request by adding the rule into `etc/udev/rules.d`
+
 ## Verification
 
 These images are signed with sisgstore's [cosign](https://docs.sigstore.dev/cosign/overview/). You can verify the signature by downloading the `cosign.pub` key from this repo and running the following command:
