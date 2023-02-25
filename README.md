@@ -16,6 +16,7 @@ Feel free to PR more rules into this repo! Ideally as they get added upstream we
 
 - Steam Devices
 - Google Titan USB keys
+- OpenRGB
 
 ## Verification
 
