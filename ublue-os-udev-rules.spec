@@ -32,7 +32,6 @@ cp %{buildroot}%{_datadir}/ublue-os/{ublue-os-udev-rules/etc/udev/rules.d,game-d
 %dir %attr(0755,root,root) %{_datadir}/ublue-os/ublue-os-udev-rules
 %dir %attr(0755,root,root) %{_datadir}/ublue-os/game-devices-udev
 %attr(0644,root,root) %{_datadir}/ublue-os/ublue-os-udev-rules/etc/udev/rules.d/*.rules
-%attr(0644,root,root) %{_datadir}/ublue-os/ublue-os-udev-rules/etc/udev/rules.d/LICENSE
 %attr(0644,root,root) %{_datadir}/ublue-os/game-devices-udev/*.rules
 %attr(0644,root,root) %{_datadir}/ublue-os/game-devices-udev/README.md
 %attr(0644,root,root) %{_datadir}/ublue-os/game-devices-udev/LICENSE
