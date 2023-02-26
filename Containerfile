@@ -14,6 +14,10 @@ RUN rpmbuild -ba \
     --define '%_tmppath %{_topdir}/tmp' \
     /tmp/ublue-os/ublue-os-udev-rules.spec
 
+RUN mkdir /tmp/ublue-os/ublue-os-udev-rules
+RUN rpm2cpio /tmp/ublue-os/rpmbuild/RPMS/noarch/ublue-os-udev-rules-*.noarch.rpm | cpio -idmv --directory /tmp/ublue-os/ublue-os-udev-rules
+
 FROM scratch
 
+COPY --from=builder /tmp/ublue-os/ublue-os-udev-rules /ublue-os-udev-rules
 COPY --from=builder /tmp/ublue-os/rpmbuild/RPMS/noarch/ublue-os-udev-rules-*.noarch.rpm  /ublue-os-udev-rules.noarch.rpm
