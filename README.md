@@ -6,9 +6,9 @@ A layer for adding extra udev rules to your image. Use this for better hardware 
 
 # Usage
 
-Add this to your containerfile:
+Add this to your Containerfile:
 
-    COPY --from=udev-rules:latest /ublue-os-udev-rules /
+    COPY --from=ghcr.io/ublue-os/udev-rules:latest /ublue-os-udev-rules /
     
 # Features
 
