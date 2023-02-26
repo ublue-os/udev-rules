@@ -2,6 +2,7 @@ Name:           ublue-os-udev-rules
 Version:        0.1
 Release:        1%{?dist}
 Summary:        Additional udev files for game controller support
+Provides:       steam-devices = 1.0.0.72
 
 License:        MIT
 URL:            https://github.com/ublue-os/udev-rules
