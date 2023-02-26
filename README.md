@@ -23,6 +23,7 @@ Feel free to PR more rules into this repo! Ideally as they get added upstream we
 - Google Titan USB keys
 - OpenRGB rules
 - [Yubikey support](https://github.com/Yubico/libfido2/tree/main/udev)
+- [Wooting Wootility](https://wooting.io/wootility)
 
 ## Adding rules
 
