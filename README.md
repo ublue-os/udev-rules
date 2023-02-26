@@ -8,7 +8,7 @@ A layer for adding extra udev rules to your image. Use this for better hardware 
 
 Add this to your containerfile:
 
-    COPY --from=ghcr.io/ublue-os/udev-rules etc/udev/rules.d/* /etc/udev/rules.d
+    COPY --from=udev-rules:latest /ublue-os-udev-rules /
     
 # Features
 
